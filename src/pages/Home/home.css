@@ -1,0 +1,188 @@
+
+
+.side-user h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+ 
+  color: #343434;
+}
+
+.side-user .user img {
+  width: 80px;
+  max-width: 100%;
+}
+@media(max-width:1280px) {
+  .side-user h4 {
+    font-size: 22px;
+
+  }
+}
+
+.lists {
+  height: 100vh;
+  border-right: 1px solid #DDDD;
+}
+
+.saved-lists,
+.side-user {
+  border-bottom: 1px solid #DDDD;
+  border-right: 1px solid #DDDD;
+}
+
+.today {
+  background-color: #FFF6F5;
+  padding: 20px;
+  border: 2px solid #FFF6F5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.today:hover {
+  border-color: #FF8C04 !important;
+}
+
+.coming {
+  background-color: #F7F9FA;
+  padding: 20px;
+  border: 2px solid #F7F9FA;
+  transition: .4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.coming:hover {
+  border-color: #AD99FF !important;
+}
+
+.today .day {
+  position: relative;
+  width: fit-content;
+  background-color: #FF8C04;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.coming .come {
+
+  width: fit-content;
+  background-color: #AD99FF;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+.daily-routine .daily {
+
+  width: fit-content;
+  background-color: #FF8C04;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.save-work .work {
+
+  width: fit-content;
+  background-color: #AD99FF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.today .day img {
+  width: 30px;
+}
+
+.coming .come img {
+  width: 50px;
+}
+
+.today .day span {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 11.58px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.coming .title,
+.today .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 26.91px;
+  letter-spacing: 0;
+  color: #7B7979;
+}
+
+.type-list .type-one .typeOne-day {
+  position: relative;
+  width: fit-content;
+}
+
+.type-list .type-one .typeOne-day span {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21.06px;
+  letter-spacing: 0;
+  color: #343434;
+}
+
+.type-list .type-one .typeOne-day img {
+  width: 40px;
+  max-width: 100%;
+}
+
+.type-list .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35.1px;
+  letter-spacing: 0;
+  color: #343434;
+}
+
+.type-two .come-icon {
+  font-size: 40px;
+}
+@media(max-width:768px) {
+  .side-user h4 {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .lists {
+    height: fit-content;
+  }
+
+  .lists,
+  .saved-lists,
+  .side-user {
+    border-right: none;
+
+  }
+
+  .on-list .options {
+    flex-direction: row !important;
+  }
+
+  .coming .title,
+  .today .title {
+    font-size: 20px;
+  }
+
+  .on-list {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: 10px 0;
+  }
+}

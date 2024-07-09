@@ -1,0 +1,68 @@
+.modal-details .modal-body input,
+.modal-details textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+
+  padding: 15px 0;
+  transition: .4s;
+}
+
+.modal-details .modal-body input {
+  border-bottom: 2px solid #DDD;
+}
+
+.modal-details textarea {
+  resize: none;
+}
+
+.modal-details .modal-body input:focus {
+  border-color: #FF543F;
+}
+
+.modal-details .modal-body input::placeholder,
+.modal-details textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #C1C1C1;
+}
+
+.modal-details .btn-primary {
+  background-color: #FF543F !important;
+  border-color: #FF543F !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.modal-details .btn-primary:hover {
+  background-color: #e0331c !important;
+  border-color: #e0331c !important;
+}
+
+.modal-details .btn-secondary {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+/* .modal-details .modal-title {
+  color: #FF543F !important;
+} */
+.modal-backdrop {
+  background-color: #7F7F7F !important;
+}
+
+.modal-content {
+  border-color: #DDD !important;
+
+}
+
+.modal-details label {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF543F;
+}

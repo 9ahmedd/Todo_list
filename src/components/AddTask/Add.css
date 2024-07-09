@@ -1,0 +1,88 @@
+.modal-add .modal-body input,
+.modal-add select,
+.modal-add textarea,.priority {
+  width: 100%;
+  border: none;
+  outline: none;
+
+  padding: 15px 0;
+  transition: .4s;
+}
+
+
+
+.modal-add .modal-body input,
+.modal-add select ,.priority{
+  border-bottom: 2px solid #DDD;
+}
+
+.modal-add textarea {
+  resize: none;
+}
+
+.modal-add .modal-body input:focus.modal-add select:focus {
+  border-color: #FF543F;
+}
+
+.modal-add .modal-body input::placeholder,
+.modal-add textarea::placeholder .modal-add select::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #C1C1C1;
+}
+
+.modal-add .btn-primary {
+  background-color: #FF543F !important;
+  border-color: #FF543F !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.modal-add .btn-primary:hover {
+  background-color: #e0331c !important;
+  border-color: #e0331c !important;
+}
+
+.modal-add .btn-secondary {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.add-child span {
+
+  background-color: #e4968d62;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff543f;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.add-child:hover span {
+  opacity: 1;
+}
+
+.priority label {
+  color: #212529;
+  transition: .4s;
+  font-size: 18px;
+}
+
+.priority label.radio1:hover {
+  color: #C24F43;
+}
+
+.priority label.radio2:hover {
+  color: #FFAA04;
+}
+
+.priority label.radio3:hover {
+  color: #04D2FF;
+}
