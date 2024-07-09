@@ -44,9 +44,9 @@
 }
 
 .coming {
-  background-color: #F7F9FA;
+  background-color: #ad99fd33;
   padding: 20px;
-  border: 2px solid #F7F9FA;
+  border: 2px solid #ad99fd33;
   transition: .4s;
   border-radius: 10px;
   cursor: pointer;
