@@ -134,7 +134,7 @@ const [border,setBorder] = useState(false)
           </Row>
         </div>
       </div>
-      <Add />
+     <Add today={TodayDate} />
     </>
   );
 }
