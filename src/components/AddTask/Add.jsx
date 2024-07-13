@@ -7,7 +7,7 @@ import { HiMiniFlag } from "react-icons/hi2";
 import { Modal, Button } from "react-bootstrap";
 import Done from "../ProcessDone/Done";
 
-function Add() {
+function Add(props) {
   const [title, setTitle] = useState("");
   const [type, setType] = useState("");
   const [desc, setDesc] = useState("");
@@ -15,7 +15,11 @@ function Add() {
   const [priority, setPriority] = useState("");
   const dispatch = useDispatch();
  const [showDone, setShowDone] = useState(false);
- const [text, setText] = useState("");
+  const [text, setText] = useState("");
+  const [today, setToday] = useState("")
+  useEffect(() => {
+    setToday(props?.today)
+  },[props.today])
  const handleDoneClose = () => setShowDone(false);
  const handleDoneModal = () => {
    setShowDone(true);
@@ -170,7 +174,7 @@ function Add() {
             </label>
           </div>
 
-          <input type="date" onChange={(e) => setDate(e.target.value)} />
+          <input type="date" onChange={(e) => setDate(e.target.value)} min={today}/>
           <textarea
             name=""
             id=""
